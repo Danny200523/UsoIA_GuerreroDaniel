@@ -1,0 +1,71 @@
+*{
+    color: white;
+}
+
+body{
+    background-color: #1B1B1B;
+}
+
+main{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    align-items: center;
+    padding-top: 3vw;
+    flex-direction: column;
+}
+
+.search-section{
+    display: flex;
+    gap: 0.5vw;
+    width: auto;
+}
+
+.search{
+    padding: 0.5vw;
+    background-color: white;
+    color: black;
+}
+
+.button-search{
+    background-color: white;
+    color: black;
+    padding-left: 1vw;
+    padding-right: 1vw;
+}
+
+.characters-section{
+    padding: 1vw;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    overflow-y: auto;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2vw;
+}
+
+.characters{
+    width: 15vw;
+    height: 20vw;
+    background-color: #292929;
+    border-radius: 1vw;
+    padding-bottom: 4vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.char-docker{
+    width: 90%;
+    height: 70%;
+}
+
+.char{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 1vw;
+}
